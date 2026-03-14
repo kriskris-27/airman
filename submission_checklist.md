@@ -5,8 +5,8 @@
 - **Email:** krishnakumars0101@gmail.com
 - **Chosen Cloud Platform:** GCP
 - **Assessment Level Submitted:** Level 1 only
-- **GitHub Repo Link:** (add your repo URL)
-- **Demo Video Link:** (add your video URL)
+- **GitHub Repo Link:** (https://github.com/kriskris-27/airman)
+- **Demo Video Link:** (https://drive.google.com/file/d/15ZI6OefOSwjtFtTd4qul8EZMubHZNOXh/view?usp=sharing)
 - **Submission Date (UTC):** 2026-03-14
 
 ---
@@ -251,3 +251,7 @@ Service is fully deployed and accessible at:
 https://skynet-ops-audit-service-6c3atqsbya-uc.a.run.app
 
 Run `terraform destroy` from the `infra/` directory to tear down all GCP resources after evaluation.
+
+
+
+
