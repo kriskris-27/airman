@@ -1,0 +1,57 @@
+# =============================================================================
+# skynet-ops-audit-service – .gitignore
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheels/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- SQLite databases ---
+*.db
+*.sqlite3
+data/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- pytest / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# --- mypy ---
+.mypy_cache/
