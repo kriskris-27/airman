@@ -71,7 +71,7 @@ def create_event():
         },
     )
 
-    return jsonify({"eventId": event_id, "storedAt": stored_at}), 201
+    return jsonify({"success": True, "eventId": event_id, "storedAt": stored_at}), 201
 
 
 # ---------------------------------------------------------------------------
